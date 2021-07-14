@@ -26,3 +26,18 @@ ul {
     }
     
   }
+/*heading for the first one*/
+  h1{
+   /* color:blue;*/
+   text-align:center;
+ }
+
+ h2,h3,h4,h5,h6{
+	color:blue;
+	text-align:center;
+}
+
+
+body { color:  blue;
+  background-color:  yellow; 
+}
