@@ -32,12 +32,28 @@ ul {
    text-align:center;
  }
 
+ h1#main{
+   color:#D2153A;
+ }
+
  h2,h3,h4,h5,h6{
 	color:blue;
 	text-align:center;
 }
 
 
-body { color:  blue;
+body { 
+  color:  blue;
   background-color:  yellow; 
+  font-family:Impact;
+  font-size:20pt;
+  font-style: italic;
+}
+
+.intro{
+  color:bisque;
+}
+
+p{
+  padding:10px 6px 4px 10px;
 }

@@ -1,0 +1,13 @@
+body{
+    background-color: burlywood;
+    font-family: fantasy;
+    color:black;
+}
+
+article#main{
+    color:crimson;
+}
+
+.intro{
+    color:darkblue;
+}
