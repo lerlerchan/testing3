@@ -2,137 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="script/style.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Introduce myself</title>
-   <!-- <style type="text/css">
-ul {
-  font-family: monospace;
-  font-size: 2em;
-  list-style: none;
-  margin: 2em;
-  padding: 0;
-  
-  li {
-    margin: 0;
-    margin-bottom: 1em;
-    padding-left: 1.5em;
-    position: relative;
-    
-    &:after {
-      content: '';
-      height: .4em;
-      width: .4em;
-      background: #D2153A;
-      display: block;
-      position: absolute;
-      transform: rotate(45deg);
-      top: .25em;
-      left: 0;
-    }
-    
-  }
-  
-}
-    </style>
--->
-    </head>
+    <title>John's ePortfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<h1>14 July 2021</h1>
-<h2>Task 1</h2>
-<ol>
-  <li>Create a html file to introduce your hometown.</li>
-  <li>Name the file as hometown.html</li>
-  <li>Create a link from index.html to your hometown html</li>
-</ol>
-
-14 Jul 2021   <a href="hometown.html" target=_blank>Introduce to my hometown</a>
-
-<h2>Task 2</h2>
-<ol>
-  <li>Create a html file and CSS file to introduce your hometown.</li>
-  <li>Name the file as hometown2.html</li>
-  <li>Create a link from index.html to your hometown html</li>
-</ol>
-
-14 Jul 2021   <a href="hometown2.html" target=_blank> 2 Introduce to my hometown</a>
-<br/>
-26 Jul 2021  <a href="bootStrap1.html" target=_blank>First Bootstrap</a>
-
-    <p style="color:green; text-align:center;">HI My name is Mikassa Ang.</p>
-    <element>I am a girl.</element>
-    <!--header area-->
-    <header>what is header?</header>
-    <!--article area-->
-    <article>bla bla bla
-      <!--CSS asttribute selector using id #-->
-        <h1 id="main">Do you want more traffic?</h1>
-        <h2>heading 2</h2>
-        <h3>heading 3</h3>
-        <h4>heading 4</h4>
-        <h5>heading 5</h5>
-<!--CSS attribute selecter using class  .-->
-        <p class="intro">asikdujfhgaolisdhfbashdfpauhsdpfuhiohj</p>
-
-        <img src="image/lerler chan new outline1.png" alt="Girl in a jacket" width="500" height="600">
-
-        <ol>
-            <li>First Item</li>
-            <li>Second Item</li>
-            <li>Third Item</li>
-          </ol>
-
-          
-          <ul>
-            <li>Basic Stick</li>
-            <li>Flower Stick</li>
-            <li>Master Stick</li>
-          </ul>
-          
-    </article> *{color:red}
-    <aside> I like to watch anime</aside>
-   
-    <blockquote>Stay hungry, stay foolish ~ Steve Job</blockquote>
-
-    <nav>what is nav</nav>
-    <section>this is a section areaajkslkjbLKFJBljbdflKJBDFLJblefblwuehfliauwhefluahsdlfalsjdfljbdflkjabsdklfjbkjbkjbkj</section>
+    <header>
+        <h1>John's ePortfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     
-    <ul>
-      <li>Basic Stick</li>
-      <ul>
-        <li>Red</li>
-        <li>Blue</li>
-        <li>Green</li>
-      </ul>
-      <li>Flower Stick</li>
-      <li>Master Stick</li>
-    </ul>
-    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Bachelor of Software Engineering student at College Ball. I am passionate about programming and have skills in Java and PHP.</p>
+    </section>
 
-    <dl>
-      <dt>Basic Stick</dt>
-      <dd>Easier stick to learn</dd>
-      <dt>Flower Stick</dt> 
-      <dd>A graceful stick with tassels</dd>
-      <dt>Master Stick</dt>
-      <dd>Our most popular stick</dd>
-    </dl>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>PHP</li>
+            <!-- Add more skills here -->
+        </ul>
+    </section>
 
-    lkchan&#64;ssc.edu.my
-    <a href="https://www.youtube.com" target=_blank> Youtube</a>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+        <!-- Add more projects here -->
+    </section>
 
-    <br/>
-    21 Jul 2021  <a href="demo_chap2/demo_css.htm" target=_blank>CSS example</a>
-    
-    <!--footer area-->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: john@example.com</p>
+        <p>Phone: 123-456-7890</p>
+        <!-- Add more contact information here -->
+    </section>
+
     <footer>
-        copy right 2021 
-        <address>Southern UNiversity College, Jalan Selatan Utama off Jalan Skudai, 81300 Skudai.</address>
+        <p>&copy; 2024 John's ePortfolio. All rights reserved.</p>
+    </footer>
 
-    </footer> 
+    <script src="script.js"></script>
 </body>
 </html>
